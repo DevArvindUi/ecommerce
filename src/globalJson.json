@@ -1,0 +1,18 @@
+{
+  "colors": {
+    "backgroundColor": "#0b0a0a",
+    "textColor": "#fffafa",
+    "borderColor": "#0f0f0f",
+    "hoverColor": "#8c8c69"
+  },
+  "country": {
+    "countryCode": "IN",
+    "currencyCode": "₹"
+  },
+  "payment_method": {
+    "payment_method_name": "razorpay",
+    "apiKey": "rzp_test_VZ6YQUdP5tmSfD",
+    "apiSecret": "As6YU0tUmgCqnWP0ooBaT4IO"
+  }
+}
+

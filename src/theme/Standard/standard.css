@@ -1,0 +1,175 @@
+.btnCommonSmall {
+   font-size: small;
+}
+
+.section-gap {
+   margin-top: calc(149px / 2);
+   margin-bottom: calc(149px / 2);
+}
+.margintop8Rem {
+   margin-top: 8rem;
+}
+
+.marginbottom8Rem {
+   margin-bottom: 8rem;
+}
+
+.marginSection {
+   margin-top: 10rem;
+   margin-bottom: 10rem;
+}
+
+.paddingSection {
+   padding-left: 5rem;
+   padding-right: 5rem;
+}
+
+.txt-14 {
+   font-size: 14px;
+}
+
+.badge {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: red;
+   color: white;
+   height: 10px;
+   position: absolute;
+   top: 2px;
+   width: 10px;
+   padding: 9px;
+   right: 1px;
+   border-radius: 50%;
+   font-weight: 700;
+}
+
+.greyBg {
+   background: #f6f6f6;
+   padding-top: 4rem;
+   padding-bottom: 4rem;
+}
+/* desktop css starts here */
+@media screen and (min-width: 1025px) {
+   .desktopWidth {
+      width: 95%;
+      margin: auto;
+   }
+}
+
+/* mobile css */
+@media screen and (max-width: 767px) {
+   .fontMb18 {
+      font-size: 18px;
+   }
+   .section-gap {
+      margin-top: calc(100px / 2);
+      margin-bottom: calc(100px / 2);
+   }
+   .carouselBtnMob {
+      top: 0 !important;
+      right: 1rem !important;
+   }
+
+   .greyBg .carouselBtnMob {
+      top: 3.5rem !important;
+   }
+}
+/* header css start */
+.hMenu {
+   width: 40px;
+   height: 40px;
+}
+.header {
+   position: relative;
+}
+
+.header-image {
+   position: relative;
+}
+
+.header-image img {
+   width: 100%;
+   height: auto;
+}
+
+.logo-text {
+   font-size: 2rem;
+   color: white;
+}
+
+.nav-link-menu {
+   color: white;
+   font-size: 24px;
+   font-weight: 600;
+   text-decoration: none;
+}
+
+.banner_slider .carousel .slide {
+   cursor: default;
+}
+
+/* category css start */
+
+.category-container {
+   width: 250px;
+   height: 250px;
+}
+
+.categories-button {
+   bottom: 12%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.categories-button a {
+   transition: transform 0.4s ease;
+}
+
+.categories-button a:hover {
+   transform: translateY(-40%);
+}
+
+/* product caed css */
+.product-title {
+   color: #a0a0a0;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: normal;
+}
+.product-image-container {
+   height: 400px;
+   width: 100%;
+}
+.product-footer {
+   width: 100%;
+}
+.product-grid-main {
+   margin-bottom: 14rem;
+}
+.greyBg .product-card {
+   background-color: white;
+   padding: 1rem;
+}
+.greyBg .carousel-button-group {
+   top: 3.7rem;
+}
+/* sale css */
+
+.sale-container {
+   height: 550px;
+}
+.text-content {
+   background: #fff9eb;
+}
+
+/* carousel css  */
+.react-multi-carousel-item {
+   justify-content: center;
+   display: flex;
+   cursor: initial !important;
+}
+.carousel-button-group {
+   right: 20rem;
+   top: 0.4rem;
+}
